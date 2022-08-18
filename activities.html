@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Adventures with Luke - Activities</title>
+        <link rel="stylesheet" href="mainstylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="top_bar">
+            <img class="logo" src="./stroller.png" alt="cute baby face" max-width="20">
+
+            <nav class="nav_bar">
+                <a href="./index.html">Home</a>
+                <a href="./packing.html">Packing</a>
+                <a href="./activities.html">Activities</a>
+                <a href="./lodging.html">Lodging</a>
+            </nav>
+        </div>
+
+        <div class="main_content">
+            <h1>What to do</h1>
+
+            <div class="wrapper">
+                <div class="ourTips">
+                    <h2>Our tips for picking activities</h2>
+                    <ul>
+                        <li>Book tickets in advance if you can</li>
+                        <li>Go during non-peak hours</li>
+                        <li>Stay flexible</li>
+                        <li>Check for age appropriateness</li>
+                        <li>Plan for what you'll do if they get hungry (they will)</li>
+                    </ul>
+                </div>
+
+                <form method="post">
+                    <fieldset>
+                        <legend>Give us your best recs</legend>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="favePlace">Favorite place you've visited</label>
+                        <input type="text" id="favePlace" name="favePlace">
+
+                        <div class="activityRecs">
+                            <p>Which of these would you recommend?</p>
+                            <label for="artMuseum">Art Musems</label>
+                            <input type="checkbox" id="artMuseum" name="artMuseum" value="artMuseum">
+
+                            <label for="themepark">Theme Park</label>
+                            <input type="checkbox" id="themepark" name="themepark" value="themepark">
+
+                            <label for="theater">Theater show</label>
+                            <input type="checkbox" id="theater" name="theater" value="theater">
+
+                            <label for="beach">Beach</label>
+                            <input type="checkbox" id="beach" name="beach" value="beach">
+                        </div>
+
+                        <label for="submitTip">What is your best tip for picking an activity?</label>
+                        <textarea id="submitTip" name="submitTip" rows= "5" cols="30"></textarea>
+
+                        <label for="story">Share one of your favorite vacation stories</label>
+                        <textarea id="story" name="story" rows= "5" cols="30"></textarea>
+
+                        <button type="submit">Submit</button>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

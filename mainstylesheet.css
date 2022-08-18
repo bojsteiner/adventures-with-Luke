@@ -1,0 +1,115 @@
+h1 {
+    color: #2c343b;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2, h3, legend {
+    color: #2c343b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li, label, button {
+    color: #566573;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top_bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6E85B7;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    padding: 20px 15px;
+}
+
+.nav_bar a {
+    padding: 0 5px;
+    color: white
+}
+.logo {
+   position: relative;
+   margin-right:72%;
+   max-width: 40px;
+}
+
+.main_content {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+
+}
+
+.main_image {
+    width: 70%;
+}
+
+.packingList {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.sleepStuff, .clothing, .gear {
+    text-align: left;
+    width: 30%;
+}
+
+.sleepStuff ul, .clothing ul, .gear ul, .rentalList ul {
+    list-style-type: circle ;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.rentalList {
+    text-align: left;
+}
+
+.rentalList a, .linkContainer a{
+    color: #566573;
+    font-family:'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourTips {
+    width: 50%;
+    text-align: left;
+}
+
+fieldset {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 25px;
+}
+
+.locImage {
+    width: 300px;
+    height: 200px;
+}
+
+.linkContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.linkContainer a{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
